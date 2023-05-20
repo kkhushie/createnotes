@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.container1 button{
+    background-color: rgba(7, 221, 7, 0.835);
+    border: none;
+    border-radius: 9px;
+    padding: 3px 3px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.container1 button:hover{
+    background-color: rgb(38, 233, 4);
+}
+body{
+    background-color: rgb(195, 150, 150);
+}
+.main-container{
+    width: 95%;
+    margin: auto;
+}
+i{
+    border-radius: 50%;
+    /* height: 25px; */
+    width: 34px; 
+    padding: 5px;
+    font-family: cursive;
+    font-size: 20px;
+
+    /* text-align: center; */
+    cursor: pointer;
+    font-weight: bolder;
+  margin-bottom: 10px;
+}
+#check-icon{
+    border: 3px solid rgb(28, 159, 5);
+    color: green;
+    position: absolute;
+    right: 17%;
+  top: 4% ;
+}
+#x-icon{
+    border: 3px solid rgb(245, 31, 20);
+    color: rgb(246, 39, 39);
+    position: absolute;
+    right: 5%;
+    top: 4% ;
+}
+.container1{
+    margin-left: 5%;
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.container3{
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    outline: none;
+  border: none;
+  width:400px;
+  height: 400px;
+  padding: 60px 25px 25px 25px;
+}
+.hiding{
+    display: none;
+}
+.displaying{
+    display: block;
+   
+}
+
